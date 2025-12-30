@@ -238,8 +238,8 @@ def deep_scrape_naukri(location="India", work_mode="remote,hybrid"):
 def deep_scrape_linkedin(location="India"):
     """Deep scrape LinkedIn with multiple searches"""
     jobs = []
-    keywords_list = ["IT service desk", "help desk", "technical support", "IT support engineer",
-                     "service desk analyst", "desktop support", "L1 support", "L2 support"]
+    keywords_list = ["IT service desk", "help desk",
+                     "service desk analyst", "desktop support", "L1 support"]
 
     try:
         for keyword in keywords_list:
